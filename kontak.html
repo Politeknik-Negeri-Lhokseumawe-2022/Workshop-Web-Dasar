@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Belajar HTML | Halaman Kontak</title>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        margin: 5%;
+        text-align: center;
+        font-family: 'Poppins', Helvetica, sans-serif;
+        color: #333;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="kontak">
+      <h1>Kontak Saya</h1>
+      <form action="" method="">
+        <div class="form-group">
+          <label for="nama">Nama</label>
+          <br />
+          <input
+            type="text"
+            id="name"
+            autofocus
+            required
+            placeholder="Masukkan nama"
+          />
+        </div>
+        <br />
+        <div class="form-group">
+          <label for="email">Email</label>
+          <br />
+          <input type="text" id="email" required placeholder="Masukkan email" />
+        </div>
+        <br />
+        <div class="form-group">
+          <label for="isi">Pesan</label>
+          <br />
+          <textarea name="isi" id="isi" cols="30" rows="10"></textarea>
+        </div>
+
+        <div>
+          <button type="submit">Kirim Pesan!</button>
+          <button type="reset">Batal</button>
+        </div>
+      </form>
+    </div>
+
+    <br />
+    <br />
+    <a href="latihan5.html" align="left">Kembali ke halaman utama</a>
+  </body>
+</html>
